@@ -1,6 +1,6 @@
 
 function loadPost(){
-    const posts = fetch('https://jsonplaceholder.typicode.com/posts')
+    const posts = fetch('https://jsonplaceholder.typicode.com/todos')
     .then(res => res.json())
     .then(data => displayPost(data))
 }
