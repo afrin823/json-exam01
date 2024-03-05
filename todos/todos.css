@@ -1,0 +1,11 @@
+.albums{
+    width: 40%;
+    margin: auto;
+    padding: 10px;
+}
+.todos-align{
+    margin: auto;
+    color: red;
+    align-items: center;
+    justify-content: center;
+}
